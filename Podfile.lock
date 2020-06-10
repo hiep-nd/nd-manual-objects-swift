@@ -1,0 +1,18 @@
+PODS:
+  - NDManualObjects/Core (0.0.2)
+  - NDManualObjects/Swift (0.0.2):
+    - NDManualObjects/Core
+
+DEPENDENCIES:
+  - NDManualObjects/Swift (from `/Users/hiep.nd/Google Drive/github/NDManualObjects_Swift/../NDManualObjects`)
+
+EXTERNAL SOURCES:
+  NDManualObjects:
+    :path: "/Users/hiep.nd/Google Drive/github/NDManualObjects_Swift/../NDManualObjects"
+
+SPEC CHECKSUMS:
+  NDManualObjects: 6fe4610367fde3aab45b9a3bfa25ea567332fbce
+
+PODFILE CHECKSUM: 63acef1aeec803e690ba04f7089ae4ab752b76c9
+
+COCOAPODS: 1.9.1
