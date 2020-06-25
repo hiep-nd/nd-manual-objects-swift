@@ -7,15 +7,17 @@
 //
 
 import XCTest
+
 @testable import NDManualObjects_Swift
 
 class NDManualObjects_SwiftTests: XCTestCase {
   class MyView: NDManualView {}
-  
+
   func testExample() throws {
     let parent = UIView()
     let view = MyView()
-    parent.nd_add(subviews: [view], translatesAutoresizingMaskIntoConstraints: true)
+    parent.nd_add(
+      subviews: [view], translatesAutoresizingMaskIntoConstraints: true)
   }
-  
+
 }

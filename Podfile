@@ -4,8 +4,7 @@
 target 'NDManualObjects_Swift' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-#  pod 'NDManualObjects'
-  pod 'NDManualObjects/Swift', :path => __dir__ + '/../NDManualObjects'
+  pod 'NDManualObjects', :path => '../NDManualObjects'
 
   # Pods for NDManualObjects_Swift
 

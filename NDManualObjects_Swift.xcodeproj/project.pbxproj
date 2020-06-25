@@ -18,6 +18,7 @@
 		BA241A8D2490D29A00CC5383 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA241A882490D29A00CC5383 /* README.md */; };
 		BA241A8E2490D29A00CC5383 /* .swift-format in Resources */ = {isa = PBXBuildFile; fileRef = BA241A892490D29A00CC5383 /* .swift-format */; };
 		BA241A912490D34E00CC5383 /* UIView+NDManualObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA241A902490D34E00CC5383 /* UIView+NDManualObjects.swift */; };
+		BAA734F124938E7F006B8C6B /* UIViewController+NDManualObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA734F024938E7F006B8C6B /* UIViewController+NDManualObjects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA241A882490D29A00CC5383 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA241A892490D29A00CC5383 /* .swift-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-format"; sourceTree = "<group>"; };
 		BA241A902490D34E00CC5383 /* UIView+NDManualObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NDManualObjects.swift"; sourceTree = "<group>"; };
+		BAA734F024938E7F006B8C6B /* UIViewController+NDManualObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NDManualObjects.swift"; sourceTree = "<group>"; };
 		C90A5B305E7D5358E3379F3B /* Pods-NDManualObjects_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDManualObjects_Swift.debug.xcconfig"; path = "Target Support Files/Pods-NDManualObjects_Swift/Pods-NDManualObjects_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		F6C0575825D50B2651D64887 /* Pods-NDManualObjects_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDManualObjects_Swift.release.xcconfig"; path = "Target Support Files/Pods-NDManualObjects_Swift/Pods-NDManualObjects_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				BA241A902490D34E00CC5383 /* UIView+NDManualObjects.swift */,
+				BAA734F024938E7F006B8C6B /* UIViewController+NDManualObjects.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA241A912490D34E00CC5383 /* UIView+NDManualObjects.swift in Sources */,
+				BAA734F124938E7F006B8C6B /* UIViewController+NDManualObjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

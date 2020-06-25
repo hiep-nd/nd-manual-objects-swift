@@ -14,4 +14,4 @@ FOUNDATION_EXPORT double NDManualObjects_SwiftVersionNumber;
 //! Project version string for NDManualObjects_Swift.
 FOUNDATION_EXPORT const unsigned char NDManualObjects_SwiftVersionString[];
 
-@import NDManualObjects;
+#import <NDManualObjects/NDManualObjects.h>
