@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NDManualObjects_Swift"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Support create object by code instead of IB."
   s.description  = <<-DESC
   NDManualObjects_Swift is a small framework that support create object by code instead of IB.
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   #s.source        = { :http => 'file:' + URI.escape(__dir__) + '/' }
   s.source       = { :git => "https://github.com/hiep-nd/nd-manual-objects-swift.git", :tag => "Pod-#{s.version}" }
   s.source_files = 'NDManualObjects_Swift/**/*.{h,swift}'
-  s.dependency 'NDManualObjects'
+  s.dependency 'NDManualObjects', '~> 0.0.6'
 end
