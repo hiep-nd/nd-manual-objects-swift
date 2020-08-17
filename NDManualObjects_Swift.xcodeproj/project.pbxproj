@@ -17,8 +17,6 @@
 		BA241A8C2490D29A00CC5383 /* NDManualObjects_Swift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BA241A872490D29A00CC5383 /* NDManualObjects_Swift.podspec */; };
 		BA241A8D2490D29A00CC5383 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA241A882490D29A00CC5383 /* README.md */; };
 		BA241A8E2490D29A00CC5383 /* .swift-format in Resources */ = {isa = PBXBuildFile; fileRef = BA241A892490D29A00CC5383 /* .swift-format */; };
-		BA241A912490D34E00CC5383 /* UIView+NDManualObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA241A902490D34E00CC5383 /* UIView+NDManualObjects.swift */; };
-		BAA734F124938E7F006B8C6B /* UIViewController+NDManualObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA734F024938E7F006B8C6B /* UIViewController+NDManualObjects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +45,6 @@
 		BA241A872490D29A00CC5383 /* NDManualObjects_Swift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NDManualObjects_Swift.podspec; sourceTree = "<group>"; };
 		BA241A882490D29A00CC5383 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA241A892490D29A00CC5383 /* .swift-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-format"; sourceTree = "<group>"; };
-		BA241A902490D34E00CC5383 /* UIView+NDManualObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NDManualObjects.swift"; sourceTree = "<group>"; };
-		BAA734F024938E7F006B8C6B /* UIViewController+NDManualObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NDManualObjects.swift"; sourceTree = "<group>"; };
 		C90A5B305E7D5358E3379F3B /* Pods-NDManualObjects_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDManualObjects_Swift.debug.xcconfig"; path = "Target Support Files/Pods-NDManualObjects_Swift/Pods-NDManualObjects_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		F6C0575825D50B2651D64887 /* Pods-NDManualObjects_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDManualObjects_Swift.release.xcconfig"; path = "Target Support Files/Pods-NDManualObjects_Swift/Pods-NDManualObjects_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +107,6 @@
 		BA241A6C2490D0CA00CC5383 /* NDManualObjects_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				BA241A8F2490D34E00CC5383 /* Utils */,
 				BA241A6D2490D0CA00CC5383 /* NDManualObjects_Swift.h */,
 				BA241A6E2490D0CA00CC5383 /* Info.plist */,
 			);
@@ -137,15 +132,6 @@
 				BA241A882490D29A00CC5383 /* README.md */,
 			);
 			name = Config;
-			sourceTree = "<group>";
-		};
-		BA241A8F2490D34E00CC5383 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				BA241A902490D34E00CC5383 /* UIView+NDManualObjects.swift */,
-				BAA734F024938E7F006B8C6B /* UIViewController+NDManualObjects.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		F66C6D81430519A4C9353828 /* Frameworks */ = {
@@ -338,8 +324,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA241A912490D34E00CC5383 /* UIView+NDManualObjects.swift in Sources */,
-				BAA734F124938E7F006B8C6B /* UIViewController+NDManualObjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +520,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 055F807358C98D8A1EBA78BE /* Pods-NDManualObjects_Swift-NDManualObjects_SwiftTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6UKD7V9S9N;
 				INFOPLIST_FILE = NDManualObjects_SwiftTests/Info.plist;
@@ -556,7 +539,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C0760FF8EE7F8936B56DD04 /* Pods-NDManualObjects_Swift-NDManualObjects_SwiftTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6UKD7V9S9N;
 				INFOPLIST_FILE = NDManualObjects_SwiftTests/Info.plist;
