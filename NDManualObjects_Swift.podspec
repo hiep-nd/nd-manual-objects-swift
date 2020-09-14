@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NDManualObjects_Swift"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "Support create object by code instead of IB."
   s.description  = <<-DESC
   NDManualObjects_Swift is a small framework that support create object by code instead of IB.
@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Nguyen Duc Hiep" => "hiep.nd@gmail.com" }
   s.ios.deployment_target = '9.0'
-  s.tvos.deployment_target = '9.0'
+  #s.tvos.deployment_target = '9.0'
   s.swift_versions = ['4.0', '5.1', '5.2']
   #s.source        = { :http => 'file:' + URI.escape(__dir__) + '/' }
   s.source       = { :git => "https://github.com/hiep-nd/nd-manual-objects-swift.git", :tag => "Pod-#{s.version}" }
   s.source_files = 'NDManualObjects_Swift/**/*.{h,swift}'
-  s.dependency 'NDManualObjects', '~> 0.0.6'
+  s.dependency 'NDManualObjects', '~> 0.0.7'
 end
